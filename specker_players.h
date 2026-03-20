@@ -119,7 +119,7 @@ public:
   
     Move play(const State& s) override {  
   
-        int mincoins = 44343;  
+        int mincoins = INT_MAX;  
         int minheaps = 0;  
   
         for (int i = 0; i < s.getHeaps(); i++) {  
@@ -161,7 +161,7 @@ public:
             }  
         }  
   
-        int mincoins = 56758;  
+        int mincoins = INT_MAX;  
         int minheaps = 0;  
   
         for (int i = 0; i < s.getHeaps(); i++) {  
