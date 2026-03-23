@@ -46,7 +46,7 @@ for (int i=0 ; i<8;i++){
     RighteousPlayer* player8 = &right2;
     letsplay.addPlayer(player2);
 
-    letsplay.play();
+    letsplay.play(std::cout);
 
 }
 
